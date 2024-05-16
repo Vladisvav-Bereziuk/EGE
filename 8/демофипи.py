@@ -1,8 +1,8 @@
 from itertools import product
-s = product('АБЗИ', repeat=4)
+s = product('ABCD', repeat=2)
 count = 0
 for str in s:
-    count += 1
+    c
     line = ''.join(str)
-    if line == "ИЗБА":
+    if not (line == 'AA' or line == 'BB' or line == 'CC' or line == 'DD'):
         print(count, line)
